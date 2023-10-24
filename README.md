@@ -268,7 +268,7 @@ best.
 The Random Forest model gives better accuracy in all other scenarios.  
 
 ## Improving the Results
-1. Bagging (Bootstrap Aggregation)
+1. **Bagging (Bootstrap Aggregation)**:
 Decisions trees are very sensitive to the data they are trained on — small
 changes to the training set can result in significantly different tree structures.
 Random forest takes advantage of this by allowing each individual tree to
@@ -276,16 +276,17 @@ randomly sample from the dataset with replacement, resulting in different trees.
 Instead of the original training data, it takes a random sample of size N with
 replacement.
 
-2. Hyperparameter tuning
+2. **Hyperparameter tuning**:
 Hyperparameters are used in random forests to either enhance the
 performance and predictive power of models or to make the model faster.
 Following hyperparameters increased the predictive power for our model:
- - n_estimators– number of trees the algorithm builds before averaging
+    - n_estimators– number of trees the algorithm builds before averaging
 the predictions.
- - max_features– maximum number of features random forest considers
+    - max_features– maximum number of features random forest considers
 splitting a node.
- - mini_sample_leaf– determines the minimum number of leaves
+    - mini_sample_leaf– determines the minimum number of leaves
 required to split an internal node.
+
 We used stratifiedKFold for tuning the hyperparameters such as max_depth,
 n_estimators.We used 10-Fold CV for tuning and used cross_val_score with
 scoring metric set to “accuracy”. We found the max_depth of 6 gives better
