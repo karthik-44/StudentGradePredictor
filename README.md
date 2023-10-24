@@ -242,6 +242,7 @@ FPR = FP / FP+TN
 AUC stands for "Area Under the ROC Curve".  
 AUC measures the entire two-dimensional area underneath the entire ROC curve (think
 integral calculus) from (0,0) to (1,1).  
+Model with higher AUC is better.  
 
 
 We tried various classifications algorithms namely:
@@ -255,6 +256,9 @@ We tried various classifications algorithms namely:
 ![alt text](./images/roc1.png)  
 
 ![alt text](./images/roc2.png)  
+
+From the above graphs we can see that Random Forest Classifier has better AUC score compared to other models.  
+
 
 ![alt text](./images/acc_cls.png)  
 
@@ -292,29 +296,28 @@ n_estimators.We used 10-Fold CV for tuning and used cross_val_score with
 scoring metric set to “accuracy”. We found the max_depth of 6 gives better
 accuracy for this setting and we plotted the tree from it.
 
-3. Splitting Criteria:
+3. **Splitting Criteria:**
 The decision-trees from the random-forest classifier uses gini-index for the
-splitting criteria:
-where Pi denotes the probability of an element being classified for a distinct class.
+splitting criteria.
 
 ![alt text](./images/acc_vs_depth.png)  
 
 
 For the max_depth = 6 and n_estimators = 51, the random forest produced the
-accuracy of 0.92929.
+accuracy of 0.92929.  
 
 
-![alt text](./images/conf_matrix.png)  
-  
+![alt text](./images/conf_matrix.png)   
+
+   
 From the above confusion matrix, we can see that our model’s mis-classifications are
 minimal.  
-
 
 The resulting tree shows one of the decision-trees from the random-forest classifier
 which uses gini-index for the splitting criteria.
 Therefore, the best random forest is plotted below:  
 
-![alt text](./images/best_rf.png)  
+![alt text](./images/best_rf.png)   
 
 The random forest uses gini-index criteria for making a decision at a node. Similarly,
 for each split, we will calculate the Gini impurities and the split producing minimum
