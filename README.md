@@ -332,4 +332,7 @@ are also other relevant features (e.g. performance by gender, parent’s job and
 education, time spent studying vs time spent free).
 As a direct outcome of this project, more efficient student prediction tools can be
 developed, improving the quality of education and enhancing school resource
-management.
+management.  
+
+I would like to thank my friends Aisha and Ved who have worked with me for this project.  
+
