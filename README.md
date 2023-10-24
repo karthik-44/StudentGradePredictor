@@ -74,24 +74,24 @@ categories which are as follows:
 ![alt text](./images/attr_category.png)  
 
 
-**School**:
+- **School**:
 These attributes involve the information related to a student’s school life, including the
 reason why they chose a particular school, how much time they spend studying, their
 previous grades as well as the number of absences from school.  
-**Family**:
+- **Family**:
 These features consist of each students’ family information like their parents’ education,
 parents’ jobs, how much they support their children and how their relationship is with
 their children etc.  
-**Extracurriculars**:
+- **Extracurriculars**:
 The predictors related to a student’s free time, romantic relationships, how much they
 go out or how much alcohol they consume have been grouped together under the
 extracurriculars category.  
-**Personal**:
+- **Personal**:
 The attributes consist of an individual’s demographics including their age, sex, address
 and health.  
 
 ## Exploratory Data Analysis
-
+**Average grade between the schools**
 
 ![alt text](./images/grades_by_school.png)  
 
@@ -101,6 +101,8 @@ does not play a significant role for a
 student’s grade prediction as they have
 a similar trend of grades overall.
 
+
+**Grade Distribution Based on Age**
 
 ![alt text](./images/grades_by_age.png)  
 
@@ -113,11 +115,14 @@ On average, female students are more than male students.
 
 
 
+**Do girls perform better than boys?**
 ![alt text](./images/g_vs_b.png)  
 
 It can be seen that girls’ performance improves with age, however, a decrease in the
 boys’ performance can be detected in the graph.  
 
+
+**Student’s Performance on the basis of Parents’ Education**
 
 ![alt text](./images/grades_by_parents_edu.png)   
 
@@ -125,6 +130,7 @@ As expected, the higher the level of parents’ education is, the higher their c
 score at school. Students whose parents have higher levels of education may have an
 enhanced regard for learning, more positive ability and beliefs, a stronger work
 orientation, and may use more effective learning strategies.
+
 
 
 ![alt text](./images/grade_dist.png)  
@@ -136,28 +142,28 @@ While many students received a zero, which was the 3rd highest count in this cas
 Very few students received a full score of 20 which is 0.2% of the class size.
 
 
+
+
 ![alt text](./images/study_time.png)  
 
 It can be seen that male students hardly studied for 2 hours a day, however most girls
 studied between 2.5 hrs to 5.5 hrs. Moreover, few percent of female students have also
-studied for more than 5 hours a day
+studied for more than 5 hours a day  
+
 
 
 ![alt text](./images/free_time.png)  
 
-
-
 While female students study for more hours a day than male counterparts, as a result
-they get less free time than male students.
+they get less free time than male students.  
 
 
 ![alt text](./images/correlation.png)  
 
-
-
 Our target variable is ‘G3’, so we check the correlation of other variables with it and find
 that ‘G1’, ‘G2’, ‘failures’, ‘higher_yes’, ‘Medu’, ‘Fedu’, ‘age’ are amongst the top most
 correlated variables with ‘G3’.
+
 
 
 
