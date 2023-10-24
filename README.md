@@ -228,7 +228,7 @@ So, we encoded the response variable to 1 if ‘G3 > 10’, else 0.
 ![alt text](./images/train_test_dist.png)  
 
 
-### Eval metrics
+### Evaluation metrics
 **Receiver Operating Characteristic Curve**: An ROC curve (receiver operating characteristic curve) is a graph showing the
 performance of a classification model at all classification thresholds. This curve plots two parameters: True Positive Rate, False Positive Rate.  
 
