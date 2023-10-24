@@ -115,7 +115,8 @@ On average, female students are more than male students.
 
 
 
-**Do girls perform better than boys?**
+**Do girls perform better than boys?**  
+
 ![alt text](./images/g_vs_b.png)  
 
 It can be seen that girls’ performance improves with age, however, a decrease in the
@@ -129,28 +130,27 @@ boys’ performance can be detected in the graph.
 As expected, the higher the level of parents’ education is, the higher their children’s
 score at school. Students whose parents have higher levels of education may have an
 enhanced regard for learning, more positive ability and beliefs, a stronger work
-orientation, and may use more effective learning strategies.
+orientation, and may use more effective learning strategies.  
 
-
+**Distribution of Final Grade of Students**  
 
 ![alt text](./images/grade_dist.png)  
-
 
 Most students can be seen to have received a borderline passing score of 10 or 11.
 While many students received a zero, which was the 3rd highest count in this case, i.e
 9.62% of the students.
-Very few students received a full score of 20 which is 0.2% of the class size.
+Very few students received a full score of 20 which is 0.2% of the class size.  
 
-
-
+**Study time Distribution**  
 
 ![alt text](./images/study_time.png)  
 
 It can be seen that male students hardly studied for 2 hours a day, however most girls
 studied between 2.5 hrs to 5.5 hrs. Moreover, few percent of female students have also
-studied for more than 5 hours a day  
+studied for more than 5 hours a day.  
 
 
+**Free time Distribution**  
 
 ![alt text](./images/free_time.png)  
 
@@ -158,13 +158,13 @@ While female students study for more hours a day than male counterparts, as a re
 they get less free time than male students.  
 
 
-![alt text](./images/correlation.png)  
+**Correlation between Features**  
+
+![alt text](./images/correlation.png)   
 
 Our target variable is ‘G3’, so we check the correlation of other variables with it and find
 that ‘G1’, ‘G2’, ‘failures’, ‘higher_yes’, ‘Medu’, ‘Fedu’, ‘age’ are amongst the top most
-correlated variables with ‘G3’.
-
-
+correlated variables with ‘G3’.  
 
 
 ## Preprocessing
