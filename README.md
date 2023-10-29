@@ -334,5 +334,5 @@ As a direct outcome of this project, more efficient student prediction tools can
 developed, improving the quality of education and enhancing school resource
 management.  
 
-I would like to thank my friends Aisha and Ved who have worked with me for this project.  
+I would like to thank Aisha and Ved who have worked with me for this project.  
 
